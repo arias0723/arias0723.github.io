@@ -29,16 +29,19 @@ languages:
                 - name: Archive
                   url: archives
                   weight: 5
-                - name: Search
-                  url: search/
-                  weight: 10
+                # - name: Search
+                #   url: search/
+                  # weight: 10
                 - name: Tags
                   url: tags/
+                  weight: 8
+                - name: RSS
+                  url: index.xml
                   weight: 10
-                - name: WiKi
-                  url: https://github.com/adityatelange/hugo-PaperMod/wiki/
-                - name: Discord
-                  url: https://discord.gg/ahpmTvhVmp
+                # - name: WiKi
+                #   url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+                # - name: Discord
+                #   url: https://discord.gg/ahpmTvhVmp
 
 outputs:
     home:
@@ -58,7 +61,7 @@ params:
     ShowReadingTime: true
     # disableSpecial1stPost: true
     displayFullLangName: true
-    ShowPostNavLinks: true
+    # ShowPostNavLinks: true
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     ShowRssButtonInSectionTermList: true
