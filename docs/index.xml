@@ -4,6 +4,11 @@
     <title>Docs on PaperMod</title>
     <link>https://arias0723.github.io/docs/</link>
     <description>Recent content in Docs on PaperMod</description>
+    <image>
+      <title>PaperMod</title>
+      <url>https://arias0723.github.io/papermod-cover.png</url>
+      <link>https://arias0723.github.io/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://arias0723.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
