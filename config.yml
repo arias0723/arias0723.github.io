@@ -1,5 +1,5 @@
 baseURL: "https://arias0723.github.io/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-title: PaperMod
+title: Personal Blog
 paginate: 5
 theme: PaperMod
 
@@ -48,8 +48,8 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-    author: Theme PaperMod
+    description: "My personal blog"
+    author: "Me"
     # author: ["Me", "You"] # multiple authors
 
     defaultTheme: auto
@@ -62,30 +62,33 @@ params:
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     ShowRssButtonInSectionTermList: true
-    ShowToc: true
+    # ShowToc: true
     # comments: false
-    images: ["papermod-cover.png"]
+    # images: ["papermod-cover.png"]
 
-    profileMode:
-        enabled: false
-        title: PaperMod
-        imageUrl: "#"
-        imageTitle: my image
-        # imageWidth: 120
-        # imageHeight: 120
-        buttons:
-            - name: Archives
-              url: archives
-            - name: Tags
-              url: tags
+    # profileMode:
+    #     enabled: false
+    #     title: PaperMod
+    #     imageUrl: "#"
+    #     imageTitle: my image
+    #     # imageWidth: 120
+    #     # imageHeight: 120
+    #     buttons:
+    #         - name: Archives
+    #           url: archives
+    #         - name: Tags
+    #           url: tags
+    homeInfoParams:
+        Title: Hi there wave
+        Content: Can be Info, links, about...
 
-    socialIcons:
-        - name: github
-          url: ""
-        - name: KoFi
-          url: "https://ko-fi.com/"
-        - name: Rss
-          url: "index.xml"
+    # socialIcons:
+    #     - name: github
+    #       url: ""
+    #     - name: KoFi
+    #       url: "https://ko-fi.com/"
+    #     - name: Rss
+    #       url: "index.xml"
 
     editPost:
         URL: "" 
